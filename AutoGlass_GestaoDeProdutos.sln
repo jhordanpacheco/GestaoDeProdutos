@@ -1,0 +1,102 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGlass_GestaoDeProdutos", "AutoGlass_GestaoDeProdutos\AutoGlass_GestaoDeProdutos.csproj", "{D3FB69DE-7910-4EF6-A6CB-8D9AD01E8F92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGlass_GestaoDeProdutos.Domain", "AutoGlass_GestaoDeProdutos.Domain\AutoGlass_GestaoDeProdutos.Domain.csproj", "{DA28EBF3-BB1B-4178-991A-775A3CBDE594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGlass_GestaoDeProdutos.Application", "AutoGlass_GestaoDeProdutos_Application\AutoGlass_GestaoDeProdutos.Application.csproj", "{F17AD7D7-FFA0-45BC-AF6C-FDB143AC4E20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGlass_GestaoDeProdutos.Infrastructure.Data", "AutoGlass_GestaoDeProdutos.Infrastructure\AutoGlass_GestaoDeProdutos.Infrastructure.Data.csproj", "{4F532ED7-F41D-4101-8CBA-38CB99BBAE71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{96D0D801-54A2-4D7E-B3CE-19772AE4AC12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{91FF5EEC-DAB6-4E8A-8132-528DDFC709D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8B9CDC78-02FF-4BF3-BAA2-12ED7CAB839D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGlass_GestaoDeProdutos.Domain.Core", "AutoGlass_GestaoDeProdutos.Domain.Core\AutoGlass_GestaoDeProdutos.Domain.Core\AutoGlass_GestaoDeProdutos.Domain.Core.csproj", "{0E6F7AFB-AD8A-41BC-8FA0-485043F8CC43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGlass_GestaoDeProdutos.Domain.Services", "AutoGlass_GestaoDeProdutos.Domain.Services\AutoGlass_GestaoDeProdutos.Domain.Services\AutoGlass_GestaoDeProdutos.Domain.Services.csproj", "{C3760569-73CA-4F6B-889F-D9EC9E0433C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGlass_GestaoDeProdutos.Application.DTO", "AutoGlass_GestaoDeProdutos_Application.DTO\AutoGlass_GestaoDeProdutos.Application.DTO\AutoGlass_GestaoDeProdutos.Application.DTO.csproj", "{7495A283-6220-4C88-99F1-BE0D5666B048}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGlass_GestaoDeProdutos.Infrastructure.Repository", "AutoGlass_GestaoDeProdutos.Infrastructure.Repository\AutoGlass_GestaoDeProdutos.Infrastructure.Repository\AutoGlass_GestaoDeProdutos.Infrastructure.Repository.csproj", "{9749523F-15BE-487A-8876-F0B52847168B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGlass_GestaoDeProdutos.Infrastructure.CrossCutting.Adapter", "AutoGlass_GestaoDeProdutos.Infrastructure.CrossCutting.Adapter\AutoGlass_GestaoDeProdutos.Infrastructure.CrossCutting.Adapter.csproj", "{83E1DF33-DD07-41D9-AC29-9D21F362BFD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGlass_GestaoDeProdutos.Infrastructure.CrossCutting.IOC", "AutoGlass_GestaoDeProdutos.Infraestruture.CrossCutting.IOC\AutoGlass_GestaoDeProdutos.Infrastructure.CrossCutting.IOC\AutoGlass_GestaoDeProdutos.Infrastructure.CrossCutting.IOC.csproj", "{18B482BF-BDB0-424F-AC4C-C25A08A57708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoGlass_GestaoDeProdutos.Tests", "AutoGlass_GestaoDeProdutos_Testes\AutoGlass_GestaoDeProdutos.Tests\AutoGlass_GestaoDeProdutos.Tests.csproj", "{230CA811-6DEC-4A69-8F16-4BC030D9F3C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3FB69DE-7910-4EF6-A6CB-8D9AD01E8F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3FB69DE-7910-4EF6-A6CB-8D9AD01E8F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3FB69DE-7910-4EF6-A6CB-8D9AD01E8F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3FB69DE-7910-4EF6-A6CB-8D9AD01E8F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA28EBF3-BB1B-4178-991A-775A3CBDE594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA28EBF3-BB1B-4178-991A-775A3CBDE594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA28EBF3-BB1B-4178-991A-775A3CBDE594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA28EBF3-BB1B-4178-991A-775A3CBDE594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F17AD7D7-FFA0-45BC-AF6C-FDB143AC4E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17AD7D7-FFA0-45BC-AF6C-FDB143AC4E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17AD7D7-FFA0-45BC-AF6C-FDB143AC4E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17AD7D7-FFA0-45BC-AF6C-FDB143AC4E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F532ED7-F41D-4101-8CBA-38CB99BBAE71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F532ED7-F41D-4101-8CBA-38CB99BBAE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F532ED7-F41D-4101-8CBA-38CB99BBAE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F532ED7-F41D-4101-8CBA-38CB99BBAE71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E6F7AFB-AD8A-41BC-8FA0-485043F8CC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E6F7AFB-AD8A-41BC-8FA0-485043F8CC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E6F7AFB-AD8A-41BC-8FA0-485043F8CC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E6F7AFB-AD8A-41BC-8FA0-485043F8CC43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3760569-73CA-4F6B-889F-D9EC9E0433C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3760569-73CA-4F6B-889F-D9EC9E0433C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3760569-73CA-4F6B-889F-D9EC9E0433C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3760569-73CA-4F6B-889F-D9EC9E0433C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7495A283-6220-4C88-99F1-BE0D5666B048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7495A283-6220-4C88-99F1-BE0D5666B048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7495A283-6220-4C88-99F1-BE0D5666B048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7495A283-6220-4C88-99F1-BE0D5666B048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9749523F-15BE-487A-8876-F0B52847168B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9749523F-15BE-487A-8876-F0B52847168B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9749523F-15BE-487A-8876-F0B52847168B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9749523F-15BE-487A-8876-F0B52847168B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E1DF33-DD07-41D9-AC29-9D21F362BFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E1DF33-DD07-41D9-AC29-9D21F362BFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E1DF33-DD07-41D9-AC29-9D21F362BFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E1DF33-DD07-41D9-AC29-9D21F362BFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B482BF-BDB0-424F-AC4C-C25A08A57708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B482BF-BDB0-424F-AC4C-C25A08A57708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B482BF-BDB0-424F-AC4C-C25A08A57708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B482BF-BDB0-424F-AC4C-C25A08A57708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{230CA811-6DEC-4A69-8F16-4BC030D9F3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230CA811-6DEC-4A69-8F16-4BC030D9F3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230CA811-6DEC-4A69-8F16-4BC030D9F3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230CA811-6DEC-4A69-8F16-4BC030D9F3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9D29020-7294-4A70-B962-C07E4EA08277}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F17AD7D7-FFA0-45BC-AF6C-FDB143AC4E20} = {96D0D801-54A2-4D7E-B3CE-19772AE4AC12}
+		{DA28EBF3-BB1B-4178-991A-775A3CBDE594} = {91FF5EEC-DAB6-4E8A-8132-528DDFC709D5}
+		{4F532ED7-F41D-4101-8CBA-38CB99BBAE71} = {8B9CDC78-02FF-4BF3-BAA2-12ED7CAB839D}
+		{0E6F7AFB-AD8A-41BC-8FA0-485043F8CC43} = {91FF5EEC-DAB6-4E8A-8132-528DDFC709D5}
+		{C3760569-73CA-4F6B-889F-D9EC9E0433C8} = {91FF5EEC-DAB6-4E8A-8132-528DDFC709D5}
+		{7495A283-6220-4C88-99F1-BE0D5666B048} = {96D0D801-54A2-4D7E-B3CE-19772AE4AC12}
+		{9749523F-15BE-487A-8876-F0B52847168B} = {8B9CDC78-02FF-4BF3-BAA2-12ED7CAB839D}
+		{83E1DF33-DD07-41D9-AC29-9D21F362BFD5} = {8B9CDC78-02FF-4BF3-BAA2-12ED7CAB839D}
+		{18B482BF-BDB0-424F-AC4C-C25A08A57708} = {8B9CDC78-02FF-4BF3-BAA2-12ED7CAB839D}
+	EndGlobalSection
+EndGlobal

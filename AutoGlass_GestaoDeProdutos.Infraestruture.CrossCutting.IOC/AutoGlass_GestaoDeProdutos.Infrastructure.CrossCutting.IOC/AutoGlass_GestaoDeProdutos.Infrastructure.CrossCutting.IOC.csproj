@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\AutoGlass_GestaoDeProdutos_Application\AutoGlass_GestaoDeProdutos.Application.csproj" />
+    <ProjectReference Include="..\..\AutoGlass_GestaoDeProdutos.Domain.Services\AutoGlass_GestaoDeProdutos.Domain.Services\AutoGlass_GestaoDeProdutos.Domain.Services.csproj" />
+    <ProjectReference Include="..\..\AutoGlass_GestaoDeProdutos.Infrastructure.CrossCutting.Adapter\AutoGlass_GestaoDeProdutos.Infrastructure.CrossCutting.Adapter.csproj" />
+    <ProjectReference Include="..\..\AutoGlass_GestaoDeProdutos.Infrastructure.Repository\AutoGlass_GestaoDeProdutos.Infrastructure.Repository\AutoGlass_GestaoDeProdutos.Infrastructure.Repository.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.0.0" />
+  </ItemGroup>
+</Project>

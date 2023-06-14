@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Interfaces\" />
+    <None Remove="Interfaces\Repositorys\" />
+    <None Remove="Interfaces\Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Interfaces\Repositorys\" />
+    <Folder Include="Interfaces\Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AutoGlass_GestaoDeProdutos.Domain\AutoGlass_GestaoDeProdutos.Domain.csproj" />
+  </ItemGroup>
+</Project>

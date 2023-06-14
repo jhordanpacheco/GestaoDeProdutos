@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Interfaces\" />
+    <None Remove="Map\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Map\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutoGlass_GestaoDeProdutos_Application.DTO\AutoGlass_GestaoDeProdutos.Application.DTO\AutoGlass_GestaoDeProdutos.Application.DTO.csproj" />
+    <ProjectReference Include="..\AutoGlass_GestaoDeProdutos.Domain\AutoGlass_GestaoDeProdutos.Domain.csproj" />
+  </ItemGroup>
+</Project>
