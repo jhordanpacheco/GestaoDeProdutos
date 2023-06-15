@@ -163,21 +163,20 @@ namespace AutoGlass_GestaoDeProdutos.Controllers
             }
         }
 
-        //DELETE: produtos/id
+        //DELETE: produtos
         /// <summary>
         /// Deletar produto
         /// </summary>
         [HttpDelete]
-        [Route("{id}")]
+        [Route("")]
         [Produces("application/json")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public ActionResult Delete([FromRoute] int id)
+        public ActionResult Delete([FromBody] ProdutoDTO produtoDTO)
         {
             try
             {
-                ProdutoDTO produtoDTO = _applicationServiceProduto.GetById(id);
                 if (produtoDTO == null)
                     return NotFound();
 
@@ -185,7 +184,6 @@ namespace AutoGlass_GestaoDeProdutos.Controllers
                 _applicationServiceProduto.Update(produtoDTO);
 
                 return Ok("O produto foi removido com sucesso!");
-
             }
             catch (Exception ex)
             {

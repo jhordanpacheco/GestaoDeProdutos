@@ -20,7 +20,7 @@
     "AutoGlass_GestaoDeProdutos": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:37515",
+      "applicationUrl": "http://localhost:48223",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
